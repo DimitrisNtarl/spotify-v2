@@ -31,7 +31,7 @@ function Right({ chooseTrack, spotifyApi }) {
   }, [accessToken]);
 
   return (
-    <section>
+    <section className="ml-20">
       <div
         className="flex items-center bg-black space-x-3 opacity-90 hover:opacity-80 cursor-pointer rounded-full p-1.5 pr-2 text-white w-full border-2 border-[#15883e] mt-5 mb-10"
         onClick={signOut}
